@@ -1,5 +1,5 @@
 FROM python:3.11-slim
-WORKDIR /app
+WORKDIR /code
 RUN python -m venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
 COPY requirements.txt .
